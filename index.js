@@ -3,7 +3,7 @@ const express = require("express"); //call library
 const app = express()
 console.log("-----------------------");
 // route 
-app.get("/hello", (req, res) => {
+app.get("/", (req, res) => {
     res.send("hello");
 })
 app.get("/hi", (req, res) => {
